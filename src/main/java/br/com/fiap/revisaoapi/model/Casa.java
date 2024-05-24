@@ -60,9 +60,26 @@ public class Casa {
   public Casa() {
   }
 
-  public Casa(Long id, String logradouro, Long cep, Long numero, String complemento, Long numeroQuartos,
-      Long numeroBanheiros, String metrosQuadrados) {
+  public Casa(Long id,
+      String logradouro,
+      Long cep,
+      Long numero,
+      String complemento,
+      Long numeroQuartos,
+      Long numeroBanheiros,
+      String metrosQuadrados) {
     this.id = id;
+    this.logradouro = logradouro;
+    this.cep = cep;
+    this.numero = numero;
+    this.complemento = complemento;
+    this.numeroQuartos = numeroQuartos;
+    this.numeroBanheiros = numeroBanheiros;
+    this.metrosQuadrados = metrosQuadrados;
+  }
+
+  public Casa(String logradouro, Long cep, Long numero, String complemento, Long numeroQuartos,
+      Long numeroBanheiros, String metrosQuadrados) {
     this.logradouro = logradouro;
     this.cep = cep;
     this.numero = numero;
