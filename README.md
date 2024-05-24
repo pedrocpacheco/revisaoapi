@@ -1,5 +1,10 @@
 # revisaoapi
 
+# GRUPO
+### PEDRO PACHECO
+### GABRIEL AMANCIO
+### TOMAZ PECORARO
+
 Projeto de revisão de API para os alunos do 2TDSPM da FIAP
 ## Tecnologias
 
