@@ -16,6 +16,7 @@ import java.util.Optional;
 public class ClienteService {
     private final ClienteRepository clienteRepository;
     private static final Pageable customPageable = PageRequest.of(0, 3, Sort.by("nome").ascending());
+    
     @Autowired
     public ClienteService(ClienteRepository clienteRepository) {
         this.clienteRepository = clienteRepository;
